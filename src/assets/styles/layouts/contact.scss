@@ -1,0 +1,30 @@
+.main-box__form {
+  margin: 3% auto;
+  width: 80%;
+}
+
+.main-box__form-title {
+  background-color: $color-form-contact;
+  text-align: center;
+  margin: 1% auto;
+  border-radius: 10px;
+  font-size: 3em;
+}
+
+.main-box__form-ask {
+  border: solid 2px $color-form-contact;
+  margin: 2% auto;
+  font-size: 1.5em;
+  padding: 2% 2%;
+  color: $color-form-contact;
+  background-color: black;
+}
+
+.main-box__form-send {
+  text-align: right;
+  margin-right: 3%;
+}
+
+.main-box__form-button-send {
+  font-size: 1em;
+}

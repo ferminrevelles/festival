@@ -1,0 +1,115 @@
+/* STYLE RESPONSIVE */
+
+@media screen and (max-width: 750px) {
+  /* Responsive HEADER */
+  
+  .headerFlex-container {
+    height: 25em;
+    display: flex;
+    align-items: center;
+  }
+
+  .containerMenu {
+    position: absolute;
+    left: 60%;
+    top: 15%;
+    width: 30%;
+    font-size: 2em;
+  }
+
+  .size_menu {
+    font-size: 1.5em;
+  }
+
+  .containerMenu__navigate--link {
+    margin-top: 1%;
+  }
+
+  /* Responsive FOOTER */
+
+  .footer__grid {
+    grid-template-columns: 100%;
+  }
+
+  .footer__title {
+    width: 70%;
+    font-size: 3em;
+  }
+
+  .footer_info {
+    font-size: 1.6em;
+  }
+
+  .footer_location {
+    font-size: 2.5em;
+  }
+
+  .separador_section {
+    height: 1px;
+  }
+
+  .footer_location__map {
+    display: none;
+  }
+  
+  /* Responsive PORTADA GRID */
+
+  .main-grid__poster {
+    margin: 10% auto 5% auto;
+  }
+
+  /* Responsive GROUP */
+
+  .main-box__title {
+    width: 90%;
+  }
+
+  .main-box__title--respon,
+  .main-box__title--icon {
+    font-size: 2em;
+  }
+
+  .main-box__groups--flex {
+    width: 95%;
+    font-size: 2em;
+  }
+
+  .main-box_description {
+    width: 45%;
+  }
+
+  /* Responsive INFO */
+
+  .jumbotron__title {
+    font-size: 4em;
+    text-align: center;
+  }
+
+  .jumbotron__subtitle {
+    font-size: 3em;
+  }
+
+  .jumbotron__text {
+    font-size: 2.5em;
+  }
+
+  .main-box__program {
+    width: 90%;
+    font-size: 2.2em;
+  }
+
+  .main-box__services {
+    font-size: 1.6em;
+  }
+
+  .main-box__eslogan {
+    font-size: 1.6em;
+  }
+
+  /* Responsive FORM */
+
+  .main-box__form {
+    width: 90%;
+    font-size: 2.2em;
+  }
+}

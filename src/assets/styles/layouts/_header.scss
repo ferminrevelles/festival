@@ -1,0 +1,48 @@
+/* flex-container para colocar el título descriptivo del contenido de la web */
+
+.headerFlex-container {
+  position: relative;
+  margin: 1% auto;
+  background: linear-gradient(to bottom, black, pink);
+  border-radius: 3vw;
+  width: 90%;
+}
+
+.headerFlex__img {
+  position: relative;
+  left: 7%;
+}
+
+.headerFlex__img--logo {
+  padding: 1% 1%;
+  max-width: 20%;
+}
+
+/* Menu mediante un flex */
+
+.containerMenu {
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  font-size: 1.5em;
+}
+
+.containerMenu__buttom--space {
+  margin-right: 1%;
+}
+
+.containerMenu__navigate--link {
+  border: solid 1px white;
+  text-align: center;
+}
+
+.containerMenu__navigate--link:hover {
+  background-color: rgb(22, 160, 116);
+  color: rgb(177, 46, 46);
+}
+
+/* Estilo para el link del menú activo */
+.link-active {
+  background-color: rgb(187, 57, 34);
+  color: rgb(231, 220, 220);
+}

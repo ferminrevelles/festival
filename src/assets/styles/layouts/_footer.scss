@@ -1,0 +1,111 @@
+@function resize ($size) {
+  @return $size*1.5;
+}
+
+/* Definimos el pie de página */
+
+.footerFlex-container {
+  width: 100%;
+  background-color: black;
+  font-size: resize(1.2) * 1vw;
+}
+
+.footerFlex-container > div {
+  background-color: black;
+  color: white;
+  margin: 1% auto 1% auto;
+  width: 100%;
+}
+
+.footer__title {
+  left: 2%;
+  color: red;
+  font-size: 2.5vw;
+  width: 35%;
+  text-align: center;
+  background-color: rgb(194, 205, 90);
+}
+
+.footer__grid {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: auto;
+  margin: auto;
+  width: 70%;
+}
+
+.footer_info,
+.footer_location {
+  text-align: center;
+}
+
+.footer_info {
+  padding: 3% 0;
+  font-family: $font-family-googlefonts-pangolin;
+}
+
+.footer_ticket {
+  background-color: rgb(160, 58, 45);
+  text-decoration: none;
+  width: auto;
+  padding: 2% 2%;
+  border-radius: 10px;
+}
+
+.footer__icon--margin {
+  margin-right: 3%;
+}
+
+hr {
+  height: 5px;
+  width: 90%;
+  margin: auto;
+}
+
+.footer-flex-socialnetmork {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: royalblue;
+  width: 100%;
+}
+
+.footer-flex-socialnetmork__logo,
+.flex_icon_socialnetrmork {
+  width: 25%;
+  text-align: center;
+}
+
+.footer__img--logo {
+  max-width: 35%;
+}
+
+.footer-flex__navigate {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.footer-flex__navigate--link {
+  text-decoration: none;
+  margin: 0% 2% 0% 5%;
+  background-color: rgb(78, 44, 41);
+  padding: 1vw 1vw;
+  border-radius: 10px;
+}
+
+.footer__link-network--space {
+  margin: 0 4%;
+}
+
+.separador_section {
+  height: 4px;
+  background-color: red;
+  width: 92%;
+}
+
+.link--color {
+  color: $link-color;
+}
